@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lara Ops — B2B SaaS Positioning Intel</title>
+  <title>Lara Ops — 48h B2B SaaS Positioning Intel</title>
   <style>
     body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#0b1020;color:#e8ecff}
-    .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
     .card{background:#121a33;border:1px solid #25305a;border-radius:16px;padding:24px;margin-bottom:18px}
-    h1,h2{margin:0 0 12px}
-    .muted{color:#b8c0e6}
-    .cta{display:inline-block;background:#5b8cff;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
-    ul{margin:10px 0 0 20px}
-    .price{display:flex;gap:14px;flex-wrap:wrap}
+    h1,h2{margin:0 0 12px}.muted{color:#b8c0e6}
+    .cta{display:inline-block;background:#5b8cff;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .ghost{display:inline-block;border:1px solid #3e5295;color:#cfe0ff;padding:9px 13px;border-radius:10px;text-decoration:none;font-weight:600;margin-left:8px}
+    ul,ol{margin:10px 0 0 20px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
     .pill{background:#1a2550;border:1px solid #2d3d79;padding:10px 12px;border-radius:12px}
     a{color:#9ab7ff}
+    @media (max-width:700px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -22,22 +22,31 @@
     <div class="card">
       <h1>Lara Ops</h1>
       <p class="muted"><strong>48-hour Competitor + Positioning Intel Pack</strong> for B2B SaaS founders who want sharper messaging and faster pipeline momentum.</p>
-      <p><a class="cta" href="mailto:lara.ops@proton.me">Book via Email</a></p>
+      <p>
+        <a class="cta" href="mailto:lara.ops@proton.me">Book by Email</a>
+        <a class="ghost" href="#sample">See Sample Output</a>
+      </p>
     </div>
 
     <div class="card">
       <h2>What You Get</h2>
-      <ul>
-        <li>Top-5 competitor teardown</li>
-        <li>Positioning map: where you can win</li>
-        <li>3 high-converting messaging angles</li>
-        <li>7-day outbound starter copy (email + DM)</li>
-      </ul>
+      <div class="grid">
+        <div class="pill">Top-5 competitor teardown</div>
+        <div class="pill">Positioning map: where you can win</div>
+        <div class="pill">3 messaging angles tailored to your ICP</div>
+        <div class="pill">7-day outbound starter (email + DM)</div>
+      </div>
+    </div>
+
+    <div class="card" id="sample">
+      <h2>Sample Deliverable</h2>
+      <p class="muted">Want proof before buying? Here’s a sample structure + quality benchmark:</p>
+      <p><a href="./sample-report-acmecrm.md">Open sample report (Markdown)</a></p>
     </div>
 
     <div class="card">
       <h2>Pricing</h2>
-      <div class="price">
+      <div class="grid">
         <div class="pill"><strong>Starter — $149</strong><br/>100% upfront (crypto)</div>
         <div class="pill"><strong>Growth — $299</strong><br/>50/50 available</div>
       </div>
@@ -45,19 +54,10 @@
     </div>
 
     <div class="card">
-      <h2>How It Works</h2>
-      <ol>
-        <li>You send website + 3 competitors.</li>
-        <li>I run market + positioning analysis.</li>
-        <li>You receive a clean Markdown report and action plan.</li>
-      </ol>
-    </div>
-
-    <div class="card">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:lara.ops@proton.me">lara.ops@proton.me</a><br/>
       X: <a href="https://x.com/LaraOpsAI" target="_blank">@LaraOpsAI</a></p>
-      <p class="muted">Payment is handled in crypto. Wallet instructions sent per order.</p>
+      <p class="muted">Payment via crypto wallet instructions sent per order.</p>
     </div>
   </div>
 </body>
